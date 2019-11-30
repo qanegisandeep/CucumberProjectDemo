@@ -6,7 +6,7 @@
         "before": [
           {
             "result": {
-              "duration": 284380,
+              "duration": 841234,
               "status": "passed"
             },
             "match": {
@@ -21,7 +21,7 @@
         "after": [
           {
             "result": {
-              "duration": 113124,
+              "duration": 89541,
               "status": "passed"
             },
             "match": {
@@ -34,7 +34,7 @@
         "steps": [
           {
             "result": {
-              "duration": 172779302,
+              "duration": 243838562,
               "status": "passed"
             },
             "line": 5,
@@ -46,7 +46,7 @@
           },
           {
             "result": {
-              "duration": 1661018,
+              "duration": 3273511,
               "status": "passed"
             },
             "line": 6,
@@ -70,7 +70,7 @@
           },
           {
             "result": {
-              "duration": 148779,
+              "duration": 86174,
               "status": "passed"
             },
             "line": 9,
@@ -82,7 +82,7 @@
           },
           {
             "result": {
-              "duration": 5446414,
+              "duration": 2527395,
               "status": "passed"
             },
             "line": 10,
@@ -120,7 +120,7 @@
         "before": [
           {
             "result": {
-              "duration": 1051143,
+              "duration": 318976,
               "status": "passed"
             },
             "match": {
@@ -135,7 +135,7 @@
         "after": [
           {
             "result": {
-              "duration": 86913,
+              "duration": 628589,
               "status": "passed"
             },
             "match": {
@@ -148,7 +148,7 @@
         "steps": [
           {
             "result": {
-              "duration": 86762,
+              "duration": 117499,
               "status": "passed"
             },
             "line": 5,
@@ -160,7 +160,7 @@
           },
           {
             "result": {
-              "duration": 945012,
+              "duration": 172078,
               "status": "passed"
             },
             "line": 6,
@@ -182,7 +182,7 @@
           },
           {
             "result": {
-              "duration": 116443,
+              "duration": 59880,
               "status": "passed"
             },
             "line": 7,
@@ -194,7 +194,7 @@
           },
           {
             "result": {
-              "duration": 161911,
+              "duration": 325442,
               "status": "passed"
             },
             "line": 8,
@@ -217,6 +217,97 @@
             "name": "@regression"
           }
         ]
+      },
+      {
+        "line": 11,
+        "name": "Home page default login",
+        "description": "",
+        "id": "appplication-login-using-simple-parameters;home-page-default-login",
+        "after": [
+          {
+            "result": {
+              "duration": 66639,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HooksInCucumber.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 386365,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "user is on netbanking landing Page",
+            "match": {
+              "location": "LoginSteps.user_is_on_netbanking_landing_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 130693,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "user login into Application with \"carl\" and \"test\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "carl",
+                  "offset": 34
+                },
+                {
+                  "val": "test",
+                  "offset": 45
+                }
+              ],
+              "location": "LoginSteps.user_login_into_Application_with_and(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 376767,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "Home page is populated",
+            "match": {
+              "location": "LoginSteps.home_page_is_populated()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 126164,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "Cards \"not\" displayed",
+            "match": {
+              "arguments": [
+                {
+                  "val": "not",
+                  "offset": 7
+                }
+              ],
+              "location": "LoginSteps.cards_displayed(String)"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "line": 10,
+            "name": "@smoke"
+          }
+        ]
       }
     ],
     "name": "Appplication Login using simple parameters",
@@ -224,5 +315,300 @@
     "id": "appplication-login-using-simple-parameters",
     "keyword": "Feature",
     "uri": "Login.feature"
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 12,
+        "name": "Home page default login",
+        "description": "",
+        "id": "appplication-login-using-example-keyword;home-page-default-login;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 85676,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HooksInCucumber.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 80526,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user is on netbanking landing Page",
+            "match": {
+              "location": "LoginSteps.user_is_on_netbanking_landing_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 203668,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user login with user1 and pass1",
+            "match": {
+              "arguments": [
+                {
+                  "val": "user1",
+                  "offset": 16
+                },
+                {
+                  "val": "pass1",
+                  "offset": 26
+                }
+              ],
+              "location": "ParameterizationWithExamplesKeywordSteps.user_login_with_and(String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 575497,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Home page is populated",
+            "match": {
+              "location": "LoginSteps.home_page_is_populated()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 498124,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Cards \"is\" displayed",
+            "match": {
+              "arguments": [
+                {
+                  "val": "is",
+                  "offset": 7
+                }
+              ],
+              "location": "LoginSteps.cards_displayed(String)"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "line": 3,
+            "name": "@smoke"
+          }
+        ]
+      },
+      {
+        "line": 13,
+        "name": "Home page default login",
+        "description": "",
+        "id": "appplication-login-using-example-keyword;home-page-default-login;;3",
+        "after": [
+          {
+            "result": {
+              "duration": 2153930,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HooksInCucumber.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 108143,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user is on netbanking landing Page",
+            "match": {
+              "location": "LoginSteps.user_is_on_netbanking_landing_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 220373,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user login with user2 and pass2",
+            "match": {
+              "arguments": [
+                {
+                  "val": "user2",
+                  "offset": 16
+                },
+                {
+                  "val": "pass2",
+                  "offset": 26
+                }
+              ],
+              "location": "ParameterizationWithExamplesKeywordSteps.user_login_with_and(String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 163791,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Home page is populated",
+            "match": {
+              "location": "LoginSteps.home_page_is_populated()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1078342,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Cards \"is\" displayed",
+            "match": {
+              "arguments": [
+                {
+                  "val": "is",
+                  "offset": 7
+                }
+              ],
+              "location": "LoginSteps.cards_displayed(String)"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "line": 3,
+            "name": "@smoke"
+          }
+        ]
+      },
+      {
+        "line": 14,
+        "name": "Home page default login",
+        "description": "",
+        "id": "appplication-login-using-example-keyword;home-page-default-login;;4",
+        "after": [
+          {
+            "result": {
+              "duration": 69934,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HooksInCucumber.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 769135,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user is on netbanking landing Page",
+            "match": {
+              "location": "LoginSteps.user_is_on_netbanking_landing_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1192069,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user login with user3 and pass3",
+            "match": {
+              "arguments": [
+                {
+                  "val": "user3",
+                  "offset": 16
+                },
+                {
+                  "val": "pass3",
+                  "offset": 26
+                }
+              ],
+              "location": "ParameterizationWithExamplesKeywordSteps.user_login_with_and(String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 166925,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Home page is populated",
+            "match": {
+              "location": "LoginSteps.home_page_is_populated()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 103477,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Cards \"is\" displayed",
+            "match": {
+              "arguments": [
+                {
+                  "val": "is",
+                  "offset": 7
+                }
+              ],
+              "location": "LoginSteps.cards_displayed(String)"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "line": 3,
+            "name": "@smoke"
+          }
+        ]
+      }
+    ],
+    "name": "Appplication Login using Example Keyword",
+    "description": "",
+    "id": "appplication-login-using-example-keyword",
+    "keyword": "Feature",
+    "uri": "ParameterizationWithExampleKeyword.feature"
   }
 ]

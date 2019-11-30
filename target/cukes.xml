@@ -1,15 +1,43 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="2" time="0.182881">
-<testcase classname="Appplication Login using Data Table" name="Home page default login" time="0.180433">
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="6" time="0.260835">
+<testcase classname="Appplication Login using Data Table" name="Home page default login" time="0.250656">
 <system-out><![CDATA[Given user is on netbanking landing Page....................................passed
 When user signup with following details.....................................passed
 Then Home page is populated.................................................passed
 And Cards "is" displayed....................................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="Appplication Login using simple parameters" name="Home page default login" time="0.002448">
+<testcase classname="Appplication Login using simple parameters" name="Home page default login" time="0.001622">
 <system-out><![CDATA[Given user is on netbanking landing Page....................................passed
 When user login into Application with "sandeep" and "123456"................passed
+Then Home page is populated.................................................passed
+And Cards "is" displayed....................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Appplication Login using simple parameters" name="Home page default login" time="0.001087">
+<system-out><![CDATA[Given user is on netbanking landing Page....................................passed
+When user login into Application with "carl" and "test".....................passed
+Then Home page is populated.................................................passed
+And Cards "not" displayed...................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Appplication Login using Example Keyword" name="Home page default login" time="0.001443">
+<system-out><![CDATA[Given user is on netbanking landing Page....................................passed
+When user login with user1 and pass1........................................passed
+Then Home page is populated.................................................passed
+And Cards "is" displayed....................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Appplication Login using Example Keyword" name="Home page default login 2" time="0.003725">
+<system-out><![CDATA[Given user is on netbanking landing Page....................................passed
+When user login with user2 and pass2........................................passed
+Then Home page is populated.................................................passed
+And Cards "is" displayed....................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Appplication Login using Example Keyword" name="Home page default login 3" time="0.002302">
+<system-out><![CDATA[Given user is on netbanking landing Page....................................passed
+When user login with user3 and pass3........................................passed
 Then Home page is populated.................................................passed
 And Cards "is" displayed....................................................passed
 ]]></system-out>
