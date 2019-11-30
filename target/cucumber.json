@@ -1,0 +1,228 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 466877,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HooksInCucumber.setUp()"
+            }
+          }
+        ],
+        "line": 4,
+        "name": "Home page default login",
+        "description": "",
+        "id": "appplication-login-using-data-table;home-page-default-login",
+        "after": [
+          {
+            "result": {
+              "duration": 264426,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HooksInCucumber.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 254167808,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user is on netbanking landing Page",
+            "match": {
+              "location": "LoginSteps.user_is_on_netbanking_landing_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1647263,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user signup with following details",
+            "match": {
+              "location": "DataDrivenSteps.user_signup_with_following_details(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "jenny",
+                  "1234",
+                  "j@gmail.com",
+                  "Australia",
+                  "3245656"
+                ],
+                "line": 7
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 95219,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "Home page is populated",
+            "match": {
+              "location": "LoginSteps.home_page_is_populated()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 24580125,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "Cards \"is\" displayed",
+            "match": {
+              "arguments": [
+                {
+                  "val": "is",
+                  "offset": 7
+                }
+              ],
+              "location": "LoginSteps.cards_displayed(String)"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "line": 3,
+            "name": "@regression"
+          }
+        ]
+      }
+    ],
+    "name": "Appplication Login using Data Table",
+    "description": "",
+    "id": "appplication-login-using-data-table",
+    "keyword": "Feature",
+    "uri": "DataDriven.feature"
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 264218,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HooksInCucumber.setUp()"
+            }
+          }
+        ],
+        "line": 4,
+        "name": "Home page default login",
+        "description": "",
+        "id": "appplication-login-using-simple-parameters;home-page-default-login",
+        "after": [
+          {
+            "result": {
+              "duration": 88951,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HooksInCucumber.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 128454,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user is on netbanking landing Page",
+            "match": {
+              "location": "LoginSteps.user_is_on_netbanking_landing_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2406658,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user login into Application with \"sandeep\" and \"123456\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "sandeep",
+                  "offset": 34
+                },
+                {
+                  "val": "123456",
+                  "offset": 48
+                }
+              ],
+              "location": "LoginSteps.user_login_into_Application_with_and(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 255501,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Home page is populated",
+            "match": {
+              "location": "LoginSteps.home_page_is_populated()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 187282,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Cards \"is\" displayed",
+            "match": {
+              "arguments": [
+                {
+                  "val": "is",
+                  "offset": 7
+                }
+              ],
+              "location": "LoginSteps.cards_displayed(String)"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "line": 3,
+            "name": "@regression"
+          }
+        ]
+      }
+    ],
+    "name": "Appplication Login using simple parameters",
+    "description": "",
+    "id": "appplication-login-using-simple-parameters",
+    "keyword": "Feature",
+    "uri": "Login.feature"
+  }
+]

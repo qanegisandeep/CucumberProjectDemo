@@ -9,7 +9,8 @@ import cucumber.api.junit.Cucumber;
 @CucumberOptions(
 		features = "src/test/java/features",
 		glue = "stepDefinitions",
-		tags = "@regression")
+		tags = "@regression", 
+		plugin = {"pretty", "html:target/cucumber", "json:target/cucumber.json","junit:target/cukes.xml"})
 public class TestRunner {
 
 }
