@@ -1,5 +1,6 @@
 Feature: Appplication Login using Data Table
 
+@regression
 Scenario: Home page default login
 Given user is on netbanking landing Page
 When user signup with following details

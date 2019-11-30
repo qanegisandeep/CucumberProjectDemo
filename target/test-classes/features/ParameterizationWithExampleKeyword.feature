@@ -1,5 +1,6 @@
 Feature: Appplication Login using Example Keyword
 
+@smoke
 Scenario Outline: Home page default login
 Given user is on netbanking landing Page
 When user login with <username> and <password>
