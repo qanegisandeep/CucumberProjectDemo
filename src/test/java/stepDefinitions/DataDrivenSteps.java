@@ -7,6 +7,7 @@ import cucumber.api.java.en.When;
 
 public class DataDrivenSteps {
 	
+	// Using data table for Data Driven test cases
 	@When("^user signup with following details$")
     public void user_signup_with_following_details(DataTable data) {
        System.out.println("Data details");

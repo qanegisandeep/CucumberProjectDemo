@@ -1,4 +1,4 @@
-Feature: Appplication Login
+Feature: Appplication Login using simple parameters
 
 Scenario: Home page default login
 Given user is on netbanking landing Page

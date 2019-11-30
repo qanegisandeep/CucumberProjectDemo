@@ -1,4 +1,4 @@
-Feature: Appplication Login using multiple data
+Feature: Appplication Login using Data Table
 
 Scenario: Home page default login
 Given user is on netbanking landing Page
