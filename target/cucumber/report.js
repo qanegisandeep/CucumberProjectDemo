@@ -7,7 +7,7 @@ formatter.feature({
   "keyword": "Feature"
 });
 formatter.before({
-  "duration": 466877,
+  "duration": 284380,
   "status": "passed"
 });
 formatter.scenario({
@@ -60,21 +60,21 @@ formatter.match({
   "location": "LoginSteps.user_is_on_netbanking_landing_page()"
 });
 formatter.result({
-  "duration": 254167808,
+  "duration": 172779302,
   "status": "passed"
 });
 formatter.match({
   "location": "DataDrivenSteps.user_signup_with_following_details(DataTable)"
 });
 formatter.result({
-  "duration": 1647263,
+  "duration": 1661018,
   "status": "passed"
 });
 formatter.match({
   "location": "LoginSteps.home_page_is_populated()"
 });
 formatter.result({
-  "duration": 95219,
+  "duration": 148779,
   "status": "passed"
 });
 formatter.match({
@@ -87,11 +87,11 @@ formatter.match({
   "location": "LoginSteps.cards_displayed(String)"
 });
 formatter.result({
-  "duration": 24580125,
+  "duration": 5446414,
   "status": "passed"
 });
 formatter.after({
-  "duration": 264426,
+  "duration": 113124,
   "status": "passed"
 });
 formatter.uri("Login.feature");
@@ -103,7 +103,7 @@ formatter.feature({
   "keyword": "Feature"
 });
 formatter.before({
-  "duration": 264218,
+  "duration": 1051143,
   "status": "passed"
 });
 formatter.scenario({
@@ -144,7 +144,7 @@ formatter.match({
   "location": "LoginSteps.user_is_on_netbanking_landing_page()"
 });
 formatter.result({
-  "duration": 128454,
+  "duration": 86762,
   "status": "passed"
 });
 formatter.match({
@@ -161,14 +161,14 @@ formatter.match({
   "location": "LoginSteps.user_login_into_Application_with_and(String,String)"
 });
 formatter.result({
-  "duration": 2406658,
+  "duration": 945012,
   "status": "passed"
 });
 formatter.match({
   "location": "LoginSteps.home_page_is_populated()"
 });
 formatter.result({
-  "duration": 255501,
+  "duration": 116443,
   "status": "passed"
 });
 formatter.match({
@@ -181,11 +181,11 @@ formatter.match({
   "location": "LoginSteps.cards_displayed(String)"
 });
 formatter.result({
-  "duration": 187282,
+  "duration": 161911,
   "status": "passed"
 });
 formatter.after({
-  "duration": 88951,
+  "duration": 86913,
   "status": "passed"
 });
 });
